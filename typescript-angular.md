@@ -8,4 +8,4 @@ Just as this entry is being written a new version of [Angular](http://angularjs.
 
 In the past when it came to JavaScript the IDEs were not very helpful, autocompletion and suggestions were based on what you previously typed, not to talk about methods description or return type. A workaround to this was to install extra modules to the IDE or write references. With typescript you have extensive support for modules, libraries and DOM methods. 
 
-[TypeScript autocompletion](/typescript-autocompletion.png "TypeScript autocompletion")
+![TypeScript autocompletion](https://github.com/alejandromdz/blog/raw/master/typescript-autocompletion.png "TypeScript autocompletion")
