@@ -12,4 +12,8 @@ In the past when it came to JavaScript the IDEs were not very helpful, autocompl
 
 ### Static Type checking
 
-While the JavaScript language design originally considered loose typing JS itself was created as a simple scripting language for basic tasks in the web browser (like showing an [ASCII clock tracking your pointer](http://llizard.etherwork.net/cwc/amazing_clock.html)) but now it handles AJAX calls, effects, routing, virtual DOM, and that's only client-wise, with NodeJS the spectrum of JS applications reaches even the Internet of things, with all this in mind the original design just gets in the way with respect of managing a complex code base, ES2015 updated the language specification with many helpful features but it didn't considered variable types other than typed arrays.
+While the JavaScript language design originally considered loose typing JS itself was created as a simple scripting language for basic tasks in the web browser (like showing an [ASCII clock tracking your pointer](http://llizard.etherwork.net/cwc/amazing_clock.html)) but now it handles AJAX calls, effects, routing, virtual DOM, and that's only client-wise, with NodeJS the spectrum of JS applications reaches even the Internet of things, with all this in mind the original design just gets in the way with respect of managing a complex code base, ES2015 updated the language specification with many helpful features but it didn't considered variable types other than typed arrays and this is where TypeScript shines, it provides primitive types and interfaces which makes TypeScript a serious Object Oriented language just like Java or C# but with al the benefits of functional programming, (The best of both worlds!).
+
+### ESNext support
+
+Finally, by using TypeScript you have access to the most recent features of JS which can be then transpiled to older JS versions. ReactJS was the bigger recipient of ES2015
