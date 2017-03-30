@@ -35,7 +35,7 @@ class Button extends React.Component {
 
 As for AngularJS, ES6 classes were a relief valve to functions which were the commodity for controllers and directives, TypeScript adds more value to class declarations with interfaces which prodive a specification for arguments passed through dependency injection.
 
-```javascript
+```typescript
 interface IMainScope extends angular.IScope{
     setLang?(string):void;
 }
@@ -44,7 +44,7 @@ class MainControl {
     static $inject = ['$scope', '$cookies'];
     constructor(private $scope: IMainScope,
         private $cookies: ng.cookies.ICookiesService) {
-        $scope.setLang = (lang) => {
+        $scope.setLang = (lang:string) => {
             $cookies.put('lang', lang, { path: '/' })
         }
     }
